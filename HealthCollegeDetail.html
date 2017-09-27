@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title></title>
+        <script>
+            var designWidth = 750;
+            resize();
+            window.addEventListener("resize",function(){
+                resize();
+            })
+            function resize(){
+                var clientWidth = document.documentElement.clientWidth;
+                var fontSize = clientWidth / designWidth * 100;
+                document.documentElement.style.fontSize = fontSize+"px";
+            }
+        </script>
+        <style>
+            *{margin: 0;padding: 0;}
+            i{font-style: normal;}
+            li{list-style: none}
+            a{text-decoration: none;}
+            body{width: 100%;overflow: hidden;overflow-y: scroll}
+            .introduce_head{width: 100%;height:3.7rem;background: url("http://images-10014880.cossh.myqcloud.com/v1.1/images/ksy_college_h5/head_01-min.jpg")no-repeat;background-size: cover;}
+            .head_title{width: 5.8rem;height: 1rem;margin: 0 auto;}
+            .head_titlebox1,.head_titlebox3{width: 1.65rem;height: 0.5rem;border-bottom: 1px solid #ffffff;float: left}
+            .head_titlebox2{text-align: center;line-height: 1rem;font-size: 0.36rem;float: left;width: 2.5rem;height: 1rem;color: #ffffff;}
+            .head_main{color:#ffffff;width: 4.5rem;font-size:0.24rem;margin:0 5%;margin-top: 0.2rem;word-break: break-all;word-wrap: break-word;text-indent: 2em;}
+            .leader_list{width: 100%;background: linear-gradient(90deg,#fbe8da, #e4edf2);padding-bottom: 0.25rem;overflow: hidden;}
+            .leader_list ul{width: 6.6rem;margin:0 auto;}
+            .leader_list ul li{float: left;width: 3.1rem;height: 4rem;border-radius: 10px;background: linear-gradient(0deg,#FFDEAD, #FAEBD7);margin-top: 0.25rem;box-shadow: 2px 2px 1px #999999}
+            .leader_list ul li:nth-of-type(2n+1){margin-right: 0.4rem}
+            .lead_intro{text-align: center}
+            .lead_intro img{width: 1.5rem;height: 1.5rem;border-radius: 50%;margin: 0.2rem 0 0 0;box-shadow: 1px 1px 1px #999999}
+            .lead_intro p{width:75%;margin:0 auto;font-size: 16px;color: #000000;text-align: center;line-height: 0.6rem;}
+            .description{display:inline-block;width: auto;margin:0 auto;text-align: left;font-size: 0.24rem;color: #000000}
+            .description i{display: block;font-weight: 100;}
+            .course{width: 100%;background: linear-gradient(90deg,#fbe8da, #e4edf2);padding-bottom:0.25rem;overflow: hidden}
+            .course ul{width: 7.1rem;margin: 0 auto;}
+            .course ul li{margin: 0.2rem 0;background: rgba(143,188,143,0.3);width: 7.1rem;height:2.1rem;border-radius: 10px;box-shadow: 2px 2px 1px #999999}
+            .course_img{width: 2.2rem;height: 1.8rem;display: block;float: left;margin: 0.15rem 0 0 0.2rem;border-radius: 5px;box-shadow: 1px 1px 1px #999999}
+            .course_li{float: left;width: 4.6rem;padding-left: 0.2rem;box-sizing: border-box;}
+            .course_li p{font-size: 14px;color: #000000;margin-top: 0.5rem;line-height: 18px;font-weight: bold}
+            .leaders{margin-top: 0.25rem;font-size: 14px;padding-left: 0.15rem;color: #000000;}
+            .pay{width: 100%;color: #b7621f;background: #f4aa27;text-align: center;font-size: 14px;line-height: 0.8rem;}
+        </style>
+    </head>
+<body>
+    <div class="page">
+        <div class="introduce_head">
+            <div class="head_title">
+                <div class="head_titlebox1"></div>
+                <div class="head_titlebox2">健康学院</div>
+                <div class="head_titlebox3"></div>
+            </div>
+            <div class="head_main">健康学院成立于2017年，坚持健康知识招升吸引力，吸引力决定财富的学院理念。学院课程主要讲述的是健康养生理念、如何养生预防、健康就是财富三方面内容。</div>
+        </div>
+
+        <div class="leader_list">
+            <ul>
+                <li>
+                    <div class="lead_intro">
+                        <img src="http://images-10014880.cossh.myqcloud.com/v1.1/images/ksy_college_h5/jiankang_02-min.jpg" alt="">
+                        <p>༺高玲云༻</p>
+                            <div class="description">
+                                <i>➢健康学院院长</i>
+                                <i>➢劲家庄官方代理</i>
+                                <i>➢藏御堂大区CEO</i>
+                            </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="lead_intro">
+                        <img src="http://images-10014880.cossh.myqcloud.com/v1.1/images/ksy_college_h5/jiankang_01-min.jpg" alt="">
+                        <p>༺珍姐༻</p>
+
+                            <div class="description">
+                                <i>➢扩散云联合创始人</i>
+                                <i>➢扩散云健康学院副院长</i>
+                                <i>➢扩散云金牌导师</i>
+                            </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <div class="course">
+            <ul>
+                <li>
+                    <img src="http://images-10014880.cossh.myqcloud.com/v1.1/images/ksy_college_h5/health-min.png" alt="" class="course_img">
+                    <div class="course_li">
+                        <p>《人为什么会生病》</p>
+                        <div class="leaders">
+                            讲师：高玲云 珍姐
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <img src="http://images-10014880.cossh.myqcloud.com/v1.1/images/ksy_college_h5/health-min.png" alt="" class="course_img">
+                    <div class="course_li">
+                        <p>《为什么预防重于治疗》</p>
+                        <div class="leaders">
+                            讲师：高玲云 珍姐
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <img src="http://images-10014880.cossh.myqcloud.com/v1.1/images/ksy_college_h5/health-min.png" alt="" class="course_img">
+                    <div class="course_li">
+                        <p>《健康心里知识课》</p>
+                        <div class="leaders">
+                            讲师：高玲云 珍姐
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <img src="http://images-10014880.cossh.myqcloud.com/v1.1/images/ksy_college_h5/health-min.png" alt="" class="course_img">
+                    <div class="course_li">
+                        <p>《和谐婚姻带来健康》</p>
+                        <div class="leaders">
+                            讲师：高玲云 珍姐
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <img src="http://images-10014880.cossh.myqcloud.com/v1.1/images/ksy_college_h5/health-min.png" alt="" class="course_img">
+                    <div class="course_li">
+                        <p>《养生知识课》</p>
+                        <div class="leaders">
+                            讲师：高玲云 珍姐
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <img src="http://images-10014880.cossh.myqcloud.com/v1.1/images/ksy_college_h5/health-min.png" alt="" class="course_img">
+                    <div class="course_li">
+                        <p>《健康带来快乐与财富》</p>
+                        <div class="leaders">
+                            讲师：高玲云 珍姐
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <div class="pay">支付998：购买课程</div>
+    </div>
+</body>
+</html>

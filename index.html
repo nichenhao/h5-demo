@@ -1,0 +1,332 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title></title>
+        <script type="text/javascript" src="http://static-10014880.cossh.myqcloud.com/v1.1/static/js/animation.js"></script>
+        <script>
+            var designWidth = 750;
+            resize();
+            window.addEventListener("resize",function(){
+                resize();
+            })
+            function resize(){
+                var clientWidth = document.documentElement.clientWidth;
+                var fontSize = clientWidth / designWidth * 100;
+                document.documentElement.style.fontSize = fontSize+"px";
+            }
+        </script>
+        <style>
+            *{margin: 0;padding: 0;}
+            i{font-style: normal;}
+            a{text-decoration: none;}
+            li{list-style: none;}
+            body{width: 100%;overflow: hidden;overflow-y: scroll}
+            .introduce_head{width: 100%;height:3.7rem;background: url("http://images-10014880.cossh.myqcloud.com/v1.1/images/ksy_college_h5/head_01-min.jpg")no-repeat;background-size: cover;}
+            .head_title{width: 5.8rem;height: 1.1rem;margin: 0 auto;}
+            .head_titlebox1,.head_titlebox3{width: 1.65rem;height: 0.55rem;border-bottom: 1px solid #ffffff;float: left}
+            .head_titlebox2{text-align: center;line-height: 1.1rem;font-size: 0.4rem;float: left;width: 2.5rem;height: 1.1rem;color: #ffffff;}
+            .head_main{color:#ffffff;width: 55%;font-size:14px;margin:0 8%;margin-top: 0.2rem;word-break: break-all;word-wrap: break-word;text-indent: 2em;line-height: 0.4rem}
+            .leadershow{background: linear-gradient(90deg,#fbe8da, #e4edf2);width: 100%;overflow: hidden;padding-bottom: 0.25rem;}
+            #showbox{width: 6.5rem;height: 2.7rem;margin: 0 auto;margin-left: 0.5rem;margin-top: 0.25rem;overflow: hidden;}
+            #ball{width: 59.8rem;zoom: 1;}
+            #ball:after{content:'';display:block;overflow:hidden;visibility:hidden;clear:both;}
+            #ball li{width:1.3rem;height:2.7rem;float:left;}
+
+            .leadershow ul li img{width:100%;}
+            .fenyuan_li{width: 100%;font-size: 14px;text-align: center;line-height: 0.75rem;color: #ffffff;background: #fe6b59;}
+            .collage_list{width: 100%;background: linear-gradient(90deg,#fbe8da, #e4edf2);overflow: hidden;}
+            .collage_list ul{margin-top: 0.35rem;width: 7.1rem;margin-left: 0.2rem;}
+            .collage_list ul li{width: 7.1rem;height: 2.1rem;margin-bottom: 0.2rem;border-radius: 10px;background: #ffffff;overflow: hidden;box-shadow: 2px 2px 2px #999999;}
+            .collage{width: 6.6rem;height: 1.7rem;margin-top: 0.2rem;margin-left: 0.25rem;}
+            .collage_img{width: 2.9rem;height: 1.7rem;display: block;float: left;box-shadow: 1px 1px 1px #999999;}
+            .collage_leader{float: left;width: 3.5rem;padding-left: 0.2rem;box-sizing: border-box;}
+            .collage_leader p{font-size: 16px;color: #000000}
+            .collage_leader p span{font-size: 14px;color: #000000;}
+            .leaders{overflow: hidden;}
+            .leaderone{margin-right: 0.3rem;margin-left: 0.5rem}
+            .leaderone,.leadertwo{float: left;width: 1.2rem}
+            .leaderone img,.leadertwo img{width: 0.8rem;height: 0.8rem;border-radius: 50%;display: block;line-height: 0.8rem;margin: 0 auto}
+            .leaderone p{text-align: center;line-height: 0.24rem;font-size: 12px;color: #ff6b5d;margin: 0.1rem 0}
+            .leaderone span{font-size: 12px;color: #ffffff;background: #ff6b5d;display: block;text-align: center;border-radius: 5px;}
+            .leadertwo p{text-align: center;line-height: 0.24rem;font-size: 12px;color: #ff6b5d;margin: 0.1rem}
+            .leadertwo span{font-size: 12px;color: #ffffff;background: #ff6b5d;display: block;text-align: center;border-radius: 5px;}
+        </style>
+    </head>
+<body>
+    <div class="page">
+        <div class="introduce_head">
+            <div class="head_title">
+                <div class="head_titlebox1"></div>
+                <div class="head_titlebox2">扩散云学院</div>
+                <div class="head_titlebox3"></div>
+            </div>
+            <div class="head_main">扩散云学院自2016年成立来，累计培养6000余名学员，其中300多名已经成长为团队长和微商操盘手。</div>
+        </div>
+
+        <div class="leadershow" id="leadshow">
+            <div class="showbox" id="showbox">
+                <ul id="ball">
+                    <!--<li><img src="http://images-10014880.cossh.myqcloud.com/v1.1/images/ksy_college_h5/lead01-min.jpg" alt=""></li>-->
+                    <!--<li><img src="http://images-10014880.cossh.myqcloud.com/v1.1/images/ksy_college_h5/lead02-min.jpg" alt=""></li>-->
+                    <!--<li><img src="http://images-10014880.cossh.myqcloud.com/v1.1/images/ksy_college_h5/lead01-min.jpg" alt=""></li>-->
+                    <li><img src="http://images-10014880.cossh.myqcloud.com/v1.1/images/ksy_college_h5/lunbo11-min.jpg" alt=""></li>
+                    <li><img src="http://images-10014880.cossh.myqcloud.com/v1.1/images/ksy_college_h5/lunbo6-min.jpg" alt=""></li>
+                    <li><img src="http://images-10014880.cossh.myqcloud.com/v1.1/images/ksy_college_h5/lunbo15-min.jpg" alt=""></li>
+                    <li><img src="http://images-10014880.cossh.myqcloud.com/v1.1/images/ksy_college_h5/lunbo21-min.jpg" alt=""></li>
+                    <li><img src="http://images-10014880.cossh.myqcloud.com/v1.1/images/ksy_college_h5/lunbo23-min.jpg" alt=""></li>
+                    <li><img src="http://images-10014880.cossh.myqcloud.com/v1.1/images/ksy_college_h5/lunbo4-min.jpg" alt=""></li>
+                    <li><img src="http://images-10014880.cossh.myqcloud.com/v1.1/images/ksy_college_h5/lunbo5-min.jpg" alt=""></li>
+                    <li><img src="http://images-10014880.cossh.myqcloud.com/v1.1/images/ksy_college_h5/lunbo16-min.jpg" alt=""></li>
+                    <li><img src="http://images-10014880.cossh.myqcloud.com/v1.1/images/ksy_college_h5/lunbo7-min.jpg" alt=""></li>
+                    <li><img src="http://images-10014880.cossh.myqcloud.com/v1.1/images/ksy_college_h5/lunbo10-min.jpg" alt=""></li>
+                    <li><img src="http://images-10014880.cossh.myqcloud.com/v1.1/images/ksy_college_h5/lunbo1-min.jpg" alt=""></li>
+                    <li><img src="http://images-10014880.cossh.myqcloud.com/v1.1/images/ksy_college_h5/lunbo2-min.jpg" alt=""></li>
+                    <li><img src="http://images-10014880.cossh.myqcloud.com/v1.1/images/ksy_college_h5/lunbo3-min.jpg" alt=""></li>
+                    <li><img src="http://images-10014880.cossh.myqcloud.com/v1.1/images/ksy_college_h5/lunbo17-min.jpg" alt=""></li>
+                    <li><img src="http://images-10014880.cossh.myqcloud.com/v1.1/images/ksy_college_h5/lunbo8-min.jpg" alt=""></li>
+                    <li><img src="http://images-10014880.cossh.myqcloud.com/v1.1/images/ksy_college_h5/lunbo9-min.jpg" alt=""></li>
+                    <li><img src="http://images-10014880.cossh.myqcloud.com/v1.1/images/ksy_college_h5/lunbo18-min.jpg" alt=""></li>
+                    <li><img src="http://images-10014880.cossh.myqcloud.com/v1.1/images/ksy_college_h5/lunbo20-min.jpg" alt=""></li>
+                    <li><img src="http://images-10014880.cossh.myqcloud.com/v1.1/images/ksy_college_h5/lunbo12-min.jpg" alt=""></li>
+                    <li><img src="http://images-10014880.cossh.myqcloud.com/v1.1/images/ksy_college_h5/lunbo13-min.jpg" alt=""></li>
+                    <li><img src="http://images-10014880.cossh.myqcloud.com/v1.1/images/ksy_college_h5/lunbo14-min.jpg" alt=""></li>
+                    <li><img src="http://images-10014880.cossh.myqcloud.com/v1.1/images/ksy_college_h5/lunbo19-min.jpg" alt=""></li>
+                    <li><img src="http://images-10014880.cossh.myqcloud.com/v1.1/images/ksy_college_h5/lunbo20-min.jpg" alt=""></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="fenyuan_li">
+            分院列表
+        </div>
+
+        <div class="collage_list">
+            <ul>
+                <li>
+                    <a href="/main/templates/ksy_college_h5/CounterattackCollegeDetail.html">
+                        <div class="collage">
+                            <img src="http://images-10014880.cossh.myqcloud.com/v1.1/images/ksy_college_h5/counterattack-min.png" alt="" class="collage_img">
+                            <div class="collage_leader">
+                                <div class="leaders">
+                                    <div class="leaderone">
+                                        <img src="http://images-10014880.cossh.myqcloud.com/v1.1/images/ksy_college_h5/nixi_01-min.jpg" alt="">
+                                        <p>耶律云迪</p>
+                                        <span>院长</span>
+                                    </div>
+                                    <div class="leadertwo">
+                                        <img src="http://images-10014880.cossh.myqcloud.com/v1.1/images/ksy_college_h5/nixi_02-min.jpg" alt="">
+                                        <p>翊琳</p>
+                                        <span>副院长</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="/main/templates/ksy_college_h5/GoddessCollegeDetail.html">
+                        <div class="collage">
+                            <img src="http://images-10014880.cossh.myqcloud.com/v1.1/images/ksy_college_h5/goddess-min.png" alt="" class="collage_img">
+                            <div class="collage_leader">
+                                <div class="leaders">
+                                    <div class="leaderone">
+                                        <img src="http://images-10014880.cossh.myqcloud.com/v1.1/images/ksy_college_h5/nvshen_01-min.jpg" alt="">
+                                        <p>KK</p>
+                                        <span>院长</span>
+                                    </div>
+                                    <div class="leadertwo">
+                                        <img src="http://images-10014880.cossh.myqcloud.com/v1.1/images/ksy_college_h5/nvshen_02-min.jpg" alt="">
+                                        <p>丁子</p>
+                                        <span>副院长</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="/main/templates/ksy_college_h5/PictureCollegeDetail.html">
+                        <div class="collage">
+                            <img src="http://images-10014880.cossh.myqcloud.com/v1.1/images/ksy_college_h5/picture-min.png" alt="" class="collage_img">
+                            <div class="collage_leader">
+                                <div class="leaders">
+                                    <div class="leaderone">
+                                        <img src="http://images-10014880.cossh.myqcloud.com/v1.1/images/ksy_college_h5/wantu_01-min.jpg" alt="">
+                                        <p>KK</p>
+                                        <span>院长</span>
+                                    </div>
+                                    <div class="leadertwo">
+                                        <img src="http://images-10014880.cossh.myqcloud.com/v1.1/images/ksy_college_h5/wantu_02-min.jpg" alt="">
+                                        <p>孙洪伟</p>
+                                        <span>副院长</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="/main/templates/ksy_college_h5/VideomarketCollegeDetail.html">
+                        <div class="collage">
+                            <img src="http://images-10014880.cossh.myqcloud.com/v1.1/images/ksy_college_h5/video-min.png" alt="" class="collage_img">
+                            <div class="collage_leader">
+                                <div class="leaders">
+                                    <div class="leaderone">
+                                        <img src="http://images-10014880.cossh.myqcloud.com/v1.1/images/ksy_college_h5/vide0_01-min.jpg" alt="">
+                                        <p>水玲</p>
+                                        <span>院长</span>
+                                    </div>
+                                    <div class="leadertwo">
+                                        <img src="http://images-10014880.cossh.myqcloud.com/v1.1/images/ksy_college_h5/video_02-min.jpg" alt="">
+                                        <p>秋子</p>
+                                        <span>副院长</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="/main/templates/ksy_college_h5/MentalityCollegeDetail.html">
+                        <div class="collage">
+                            <img src="http://images-10014880.cossh.myqcloud.com/v1.1/images/ksy_college_h5/mentality-min.png" alt="" class="collage_img">
+                            <div class="collage_leader">
+                                <div class="leaders">
+                                    <div class="leaderone">
+                                        <img src="http://images-10014880.cossh.myqcloud.com/v1.1/images/ksy_college_h5/xintai_2-min.jpg" alt="">
+                                        <p>娟娟</p>
+                                        <span>院长</span>
+                                    </div>
+                                    <!--<div class="leadertwo">-->
+                                    <!--<img src="images/xuanyuan44_01.jpg" alt="">-->
+                                    <!--<i>张志宏</i>-->
+                                    <!--<i>院长</i>-->
+                                    <!--</div>-->
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="/main/templates/ksy_college_h5/HostCollegeDetail.html">
+                        <div class="collage">
+                            <img src="http://images-10014880.cossh.myqcloud.com/v1.1/images/ksy_college_h5/host-min.png" alt="" class="collage_img">
+                            <div class="collage_leader">
+                                <div class="leaders">
+                                    <div class="leaderone">
+                                        <img src="http://images-10014880.cossh.myqcloud.com/v1.1/images/ksy_college_h5/zhuchi_01-min.jpg" alt="">
+                                        <p>王晓蕾</p>
+                                        <span>院长</span>
+                                    </div>
+                                    <div class="leadertwo">
+                                        <img src="http://images-10014880.cossh.myqcloud.com/v1.1/images/ksy_college_h5/zhuchi_02-min.jpg" alt="">
+                                        <p>萍姐</p>
+                                        <span>副院长</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="/main/templates/ksy_college_h5/HealthCollegeDetail.html">
+                        <div class="collage">
+                            <img src="http://images-10014880.cossh.myqcloud.com/v1.1/images/ksy_college_h5/health-min.png" alt="" class="collage_img">
+                            <div class="collage_leader">
+                                <div class="leaders">
+                                    <div class="leaderone">
+                                        <img src="http://images-10014880.cossh.myqcloud.com/v1.1/images/ksy_college_h5/jiankang_02-min.jpg" alt="">
+                                        <p>高玲云</p>
+                                        <span>院长</span>
+                                    </div>
+                                    <div class="leadertwo">
+                                        <img src="http://images-10014880.cossh.myqcloud.com/v1.1/images/ksy_college_h5/jiankang_01-min.jpg" alt="">
+                                        <p>珍姐</p>
+                                        <span>副院长</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="/main/templates/ksy_college_h5/InfluenceCollegeDetail.html">
+                        <div class="collage">
+                            <img src="http://images-10014880.cossh.myqcloud.com/v1.1/images/ksy_college_h5/inflence-min.png" alt="" class="collage_img">
+                            <div class="collage_leader">
+                                <div class="leaders">
+                                    <div class="leaderone">
+                                        <img src="http://images-10014880.cossh.myqcloud.com/v1.1/images/ksy_college_h5/yingxiangli_02-min.jpg" alt="">
+                                        <p>梨姐</p>
+                                        <span>院长</span>
+                                    </div>
+                                    <div class="leadertwo">
+                                        <img src="http://images-10014880.cossh.myqcloud.com/v1.1/images/ksy_college_h5/yingxiangli_01-min.jpg" alt="">
+                                        <p>林帆</p>
+                                        <span>副院长</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="/main/templates/ksy_college_h5/DrainageCollegeDetail.html">
+                        <div class="collage">
+                            <img src="http://images-10014880.cossh.myqcloud.com/v1.1/images/ksy_college_h5/yinliu-min.png" alt="" class="collage_img">
+                            <div class="collage_leader">
+                                <div class="leaders">
+                                    <div class="leaderone">
+                                        <img src="http://images-10014880.cossh.myqcloud.com/v1.1/images/ksy_college_h5/yinliu_02-min.jpg" alt="">
+                                        <p>冰大大</p>
+                                        <span>院长</span>
+                                    </div>
+                                    <div class="leadertwo">
+                                        <img src="http://images-10014880.cossh.myqcloud.com/v1.1/images/ksy_college_h5/yinliu_03_02-min.jpg" alt="">
+                                        <p>若雪兰馨</p>
+                                        <span>副院长</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="/main/templates/ksy_college_h5/OriginalityDiyCollegeDetail.html">
+                        <div class="collage">
+                            <img src="http://images-10014880.cossh.myqcloud.com/v1.1/images/ksy_college_h5/chuangyicollege.jpg" alt="" class="collage_img">
+                            <div class="collage_leader">
+                                <div class="leaders">
+                                    <div class="leaderone">
+                                        <img src="http://images-10014880.cossh.myqcloud.com/v1.1/images/ksy_college_h5/chuangyi_01.jpg" alt="">
+                                        <p>阿静</p>
+                                        <span>院长</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+    <script type="text/javascript">
+        var box = document.getElementById('showbox');
+        var ball = document.getElementById('ball');
+        var width = box.offsetWidth;
+//        console.log(width);
+        ball.innerHTML += ball.innerHTML;
+        box.timer = setInterval(function(){
+//            console.log(width);
+            box.scrollLeft++;
+            if(box.scrollLeft>((width/5)*23)){
+//                console.log(2);
+                box.scrollLeft = 0;
+            }
+        },10)
+    </script>
+</html>

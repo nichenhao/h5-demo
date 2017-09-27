@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title></title>
+        <script>
+            var designWidth = 750;
+            resize();
+            window.addEventListener("resize",function(){
+                resize();
+            })
+            function resize(){
+                var clientWidth = document.documentElement.clientWidth;
+                var fontSize = clientWidth / designWidth * 100;
+                document.documentElement.style.fontSize = fontSize+"px";
+            }
+        </script>
+        <style>
+            *{margin: 0;padding: 0;}
+            i{font-style: normal;}
+            li{list-style: none}
+            a{text-decoration: none;}
+            body{width: 100%;overflow: hidden;overflow-y: scroll}
+            .introduce_head{width: 100%;height:3.7rem;background: url("http://images-10014880.cossh.myqcloud.com/v1.1/images/ksy_college_h5/head_01-min.jpg")no-repeat;background-size: cover;}
+            .head_title{width: 5.8rem;height: 1rem;margin: 0 auto;}
+            .head_titlebox1,.head_titlebox3{width: 1.65rem;height: 0.5rem;border-bottom: 1px solid #ffffff;float: left}
+            .head_titlebox2{text-align: center;line-height: 1rem;font-size: 0.36rem;float: left;width: 2.5rem;height: 1rem;color: #ffffff;}
+            .head_main{color:#ffffff;width: 60%;font-size:0.24rem;margin:0 5%;margin-top: 0.2rem;word-break: break-all;word-wrap: break-word;text-indent: 2em;}
+            .leader_list{width: 100%;background: linear-gradient(90deg,#fbe8da, #e4edf2);padding-bottom: 0.25rem;overflow: hidden;}
+            .leader_list ul{width: 6.6rem;margin:0 auto;}
+            .leader_list ul li{float: left;width: 3.1rem;height: 4rem;border-radius: 10px;background: linear-gradient(0deg,#FFDEAD, #FAEBD7);margin-top: 0.25rem;box-shadow: 2px 2px 1px #999999}
+            .leader_list ul li:nth-of-type(2n+1){margin-right: 0.4rem}
+            .lead_intro{text-align: center}
+            .lead_intro img{width: 1.5rem;height: 1.5rem;border-radius: 50%;margin: 0.2rem 0 0 0;box-shadow: 1px 1px 1px #999999}
+            .lead_intro p{width:75%;margin:0 auto;font-size: 12px;color: #000000;text-align: center;line-height: 0.6rem;}
+            .description{display:inline-block;width: auto;margin:0 auto;text-align: left;font-size: 0.24rem;color: #000000}
+            .description i{display: block;font-weight: 100;}
+            .course{width: 100%;background: linear-gradient(90deg,#fbe8da, #e4edf2);padding-bottom:0.25rem;overflow: hidden}
+            .course ul{width: 7.1rem;margin: 0 auto;}
+            .course ul li{margin: 0.2rem 0;background: rgba(255,255,0,0.3);width: 7.1rem;height:2.1rem;border-radius: 10px;box-shadow: 2px 2px 1px #999999}
+            .course_img{width: 2.2rem;height: 1.8rem;display: block;float: left;margin: 0.15rem 0 0 0.2rem;border-radius: 5px;box-shadow: 1px 1px 1px #999999}
+            .course_li{float: left;width: 4.6rem;padding-left: 0.1rem;box-sizing: border-box;}
+            .course_li p{font-size: 14px;color: #000000;margin-top: 0.4rem;line-height: 18px}
+            .leaders{margin-top: 0.25rem;font-size: 14px;padding-left: 0.15rem;color: #000000;}
+            .pay{width: 100%;color: #b7621f;background: #f4aa27;text-align: center;font-size: 14px;line-height: 0.8rem;}
+        </style>
+    </head>
+<body>
+    <div class="page">
+        <div class="introduce_head">
+            <div class="head_title">
+                <div class="head_titlebox1"></div>
+                <div class="head_titlebox2">玩图学院</div>
+                <div class="head_titlebox3"></div>
+            </div>
+            <div class="head_main">玩图学院成立于2017年，研究精美图片创造微商价值，主要讲述制做精美图片，引爆朋友圈、拍摄技巧应用，吸引你的粉丝、美图营销，提升自身的自媒体、PS，能玩会玩，塑造价值四个方面。</div>
+        </div>
+
+        <div class="leader_list">
+            <ul>
+                <li>
+                    <div class="lead_intro">
+                        <img src="http://images-10014880.cossh.myqcloud.com/v1.1/images/ksy_college_h5/wantu_01-min.jpg" alt="">
+                        <p>༺KK༻</p>
+
+                            <div class="description">
+                                <i>➢扩散云联合创始人</i>
+                                <i>➢扩散云金牌导师</i>
+                                <i>➢玩图学院院长</i>
+                            </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="lead_intro">
+                        <img src="http://images-10014880.cossh.myqcloud.com/v1.1/images/ksy_college_h5/wantu_02-min.jpg" alt="">
+                        <p>༺孙洪伟༻</p>
+
+                            <div class="description">
+                                <i>➢仁和恩视明联合创始人</i>
+                                <i>➢扩散云联合创始人</i>
+                                <i>➢玩图学院副院长</i>
+                            </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <div class="course">
+            <ul>
+                <li>
+                    <img src="http://images-10014880.cossh.myqcloud.com/v1.1/images/ksy_college_h5/picture-min.png" alt="" class="course_img">
+                    <div class="course_li">
+                        <p>《自拍也是一门技术活！六个小技巧秒变网红》</p>
+                        <div class="leaders">
+                            讲师：KK 孙洪伟
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <img src="http://images-10014880.cossh.myqcloud.com/v1.1/images/ksy_college_h5/picture-min.png" alt="" class="course_img">
+                    <div class="course_li">
+                        <p>《玩图技巧+落地实操，引爆朋友圈》</p>
+                        <div class="leaders">
+                            讲师：KK 孙洪伟
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <img src="http://images-10014880.cossh.myqcloud.com/v1.1/images/ksy_college_h5/picture-min.png" alt="" class="course_img">
+                    <div class="course_li">
+                        <p>《有了PS，世界从此无真相》</p>
+                        <div class="leaders">
+                            讲师：KK 孙洪伟
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <img src="http://images-10014880.cossh.myqcloud.com/v1.1/images/ksy_college_h5/picture-min.png" alt="" class="course_img">
+                    <div class="course_li">
+                        <p>《神器秒抠图，一秒高大上》</p>
+                        <div class="leaders">
+                            讲师：KK 孙洪伟
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <img src="http://images-10014880.cossh.myqcloud.com/v1.1/images/ksy_college_h5/picture-min.png" alt="" class="course_img">
+                    <div class="course_li">
+                        <p>《毕业典礼：《如何让图片颠覆你的营销》》</p>
+                        <div class="leaders">
+                            讲师：KK 孙洪伟
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <div class="pay">支付998：购买课程</div>
+    </div>
+</body>
+</html>

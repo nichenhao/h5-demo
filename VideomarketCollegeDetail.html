@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title></title>
+        <script>
+            var designWidth = 750;
+            resize();
+            window.addEventListener("resize",function(){
+                resize();
+            })
+            function resize(){
+                var clientWidth = document.documentElement.clientWidth;
+                var fontSize = clientWidth / designWidth * 100;
+                document.documentElement.style.fontSize = fontSize+"px";
+            }
+        </script>
+        <style>
+            *{margin: 0;padding: 0;}
+            i{font-style: normal;}
+            li{list-style: none}
+            a{text-decoration: none;}
+            body{width: 100%;overflow: hidden;overflow-y: scroll}
+            .introduce_head{width: 100%;height:3.7rem;background: url("http://images-10014880.cossh.myqcloud.com/v1.1/images/ksy_college_h5/head_01-min.jpg")no-repeat;background-size: cover;}
+            .head_title{width: 6.4rem;height: 1rem;margin: 0 auto;}
+            .head_titlebox1,.head_titlebox3{width: 1.65rem;height: 0.5rem;border-bottom: 1px solid #ffffff;float: left}
+            .head_titlebox2{text-align: center;line-height: 1rem;font-size: 0.36rem;float: left;width: 3.1rem;height: 1rem;color: #ffffff;}
+            .head_main{color:#ffffff;width: 60%;font-size:0.24rem;margin:0 5%;word-break: break-all;word-wrap: break-word;text-indent: 2em;}
+            .leader_list{width: 100%;background: linear-gradient(90deg,#fbe8da, #e4edf2);padding-bottom: 0.25rem;overflow: hidden;}
+            .leader_list ul{width: 6.6rem;margin:0 auto;}
+            .leader_list ul li{float: left;width: 3.1rem;height: 4rem;border-radius: 10px;background: linear-gradient(0deg,#FFDEAD, #FAEBD7);margin-top: 0.25rem;box-shadow: 2px 2px 1px #999999}
+            .leader_list ul li:nth-of-type(2n+1){margin-right: 0.4rem}
+            .lead_intro{text-align: center}
+            .lead_intro img{width: 1.5rem;height: 1.5rem;border-radius: 50%;margin: 0.2rem 0 0 0;box-shadow: 1px 1px 1px #999999}
+            .lead_intro p{width:75%;margin:0 auto;font-size: 16px;color: #000000;text-align: center;line-height: 0.6rem;}
+            .description{display:inline-block;width: auto;margin:0 auto;text-align: left;font-size: 0.24rem;color: #000000}
+            .description i{display: block;font-weight: 100;}
+            .course{width: 100%;background: linear-gradient(90deg,#fbe8da, #e4edf2);padding-bottom:0.25rem;overflow: hidden}
+            .course ul{width: 7.1rem;margin: 0 auto;}
+            .course ul li{margin: 0.2rem 0;background: rgba(0,206,209,0.3);width: 7.1rem;height:2.1rem;border-radius: 10px;box-shadow: 2px 2px 1px #999999}
+            .course_img{width: 2.2rem;height: 1.8rem;display: block;float: left;margin: 0.15rem 0 0 0.2rem;border-radius: 5px;box-shadow: 1px 1px 1px #999999}
+            .course_li{float: left;width: 4.6rem;padding-left: 0.1rem;box-sizing: border-box;}
+            .course_li p{font-size: 14px;color: #000000;margin-top: 0.5rem;line-height: 18px}
+            .leaders{margin-top: 0.25rem;font-size: 14px;padding-left: 0.15rem;color: #000000;}
+            .pay{width: 100%;color: #b7621f;background: #f4aa27;text-align: center;font-size: 14px;line-height: 0.8rem;}
+        </style>
+    </head>
+<body>
+    <div class="page">
+        <div class="introduce_head">
+            <div class="head_title">
+                <div class="head_titlebox1"></div>
+                <div class="head_titlebox2">小视频营销学院</div>
+                <div class="head_titlebox3"></div>
+            </div>
+            <div class="head_main">小视频营销学院成立于2017年7月23日，通过学习小视频，让你的朋友圈迅速激活起来，让你的引流更精准，迅速找到你的真爱粉，让你的朋友圈 ，让你在微友面前，变得与众不同.学院秉承大爱，包容的理念。让你学得开心，用得顺心。</div>
+        </div>
+
+        <div class="leader_list">
+            <ul>
+                <li>
+                    <div class="lead_intro">
+                        <img src="http://images-10014880.cossh.myqcloud.com/v1.1/images/ksy_college_h5/vide0_01-min.jpg" alt="">
+                        <p>༺水玲༻</p>
+                            <div class="description">
+                                <i>➢扩散云学院金牌导师</i>
+                                <i>➢小视频制作导师</i>
+                                <i>➢小视频学院院长</i>
+                            </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="lead_intro">
+                        <img src="http://images-10014880.cossh.myqcloud.com/v1.1/images/ksy_college_h5/video_02-min.jpg" alt="">
+                        <p>༺秋子༻</p>
+                            <div class="description">
+                                <i>➢扩散云联合创始人</i>
+                                <i>➢扩散云金牌导师</i>
+                                <i>➢小视频学院副院长</i>
+                            </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <div class="course">
+            <ul>
+                <li>
+                    <img src="http://images-10014880.cossh.myqcloud.com/v1.1/images/ksy_college_h5/video-min.png" alt="" class="course_img">
+                    <div class="course_li">
+                        <p>《视频营销思维和未来前景》</p>
+                        <div class="leaders">
+                            讲师：珍惜 扩散云视频学院副院长
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <img src="http://images-10014880.cossh.myqcloud.com/v1.1/images/ksy_college_h5/video-min.png" alt="" class="course_img">
+                    <div class="course_li">
+                        <p>《玩转视频引爆你的朋友圈》</p>
+                        <div class="leaders">
+                            讲师：水玲 扩散云视频学院院长
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <img src="http://images-10014880.cossh.myqcloud.com/v1.1/images/ksy_college_h5/video-min.png" alt="" class="course_img">
+                    <div class="course_li">
+                        <p>《吸睛原创视频点亮你的朋友圈》</p>
+                        <div class="leaders">
+                            讲师：秋子 扩散云视频学院副院长
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <img src="http://images-10014880.cossh.myqcloud.com/v1.1/images/ksy_college_h5/video-min.png" alt="" class="course_img">
+                    <div class="course_li">
+                        <p>《高清视频压缩和长视频发圈》</p>
+                        <div class="leaders">
+                            讲师：珍惜 扩散云视频学院副院长
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <img src="http://images-10014880.cossh.myqcloud.com/v1.1/images/ksy_college_h5/video-min.png" alt="" class="course_img">
+                    <div class="course_li">
+                        <p>《GIF动图制作激活社群活跃度》</p>
+                        <div class="leaders">
+                            讲师：水玲 扩散云视频学院院长
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <div class="pay">支付998：购买课程</div>
+    </div>
+</body>
+</html>
